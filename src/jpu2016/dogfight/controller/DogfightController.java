@@ -11,9 +11,8 @@ public class DogfightController {
 		
 		int TIME_SLEEP = 30;
 
-		public DogfightController(IDogfightModel dogfightModel) {
-
-		}
+		public final DogfightController(IDogfightModel dogfightModel);
+		
 
 		public void orderPerform(UserOrder userOrder) {
 			return;
@@ -21,7 +20,7 @@ public class DogfightController {
 		}
 
 		public void play() {
-			return null;
+			return;
 
 		}
 
