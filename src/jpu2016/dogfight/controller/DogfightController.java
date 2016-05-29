@@ -22,11 +22,10 @@ public class DogfightController {
 
 		}
 
-		public void setViewSystem(IViewSystem viewSystem) {
+		private final String setViewSystem (IViewSystem viewSystem);
+		
 
-		}
-
-		private void launchMissile(int player) {
+		private final String launchMissile(int player) {
 
 		}
 
@@ -36,10 +35,16 @@ public class DogfightController {
 		
 		final DogfightModel dogfightModel = new DogfightModel();
 		final DogfightController dogfightController = new DogfightController(dogfightModel);
-		final DogfightView dogfightView = new DogfightView(dogfightController, dogfightModel);
+		final DogfightView dogfightView = new DogfightView(dogfightController, dogfightModel,
+		dogfightModel);
 		dogfightController.setViewSystem(dogfightView);
 		dogfightController.play();
 
+	}
+
+	private static void play() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
