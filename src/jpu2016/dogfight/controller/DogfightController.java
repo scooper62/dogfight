@@ -1,6 +1,7 @@
 package jpu2016.dogfight.controller;
 
 import jpu2016.dogfight.view.DogfightView;
+import jpu2016.dogfight.model.DogfightModel;
 
 public class DogfightController {
 
