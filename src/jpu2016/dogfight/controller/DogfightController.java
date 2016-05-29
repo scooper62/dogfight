@@ -15,27 +15,22 @@ public class DogfightController {
 		
 
 		public void orderPerform(UserOrder userOrder) {
-			return;
 
 		}
 
 		public void play() {
-			return;
 
 		}
 
 		public void setViewSystem(IViewSystem viewSystem) {
-			return;
 
 		}
 
 		private void launchMissile(int player) {
-			return;
 
 		}
 
 		private void gameLoop() {
-			return;
 
 		}
 		
