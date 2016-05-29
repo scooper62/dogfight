@@ -22,10 +22,10 @@ public class DogfightController {
 
 		}
 
-		private final String setViewSystem (IViewSystem viewSystem);
+		private final setViewSystem(IViewSystem viewSystem);
 		
 
-		private final String launchMissile(int player) {
+		private final launchMissile(int player) {
 
 		}
 
@@ -40,11 +40,6 @@ public class DogfightController {
 		dogfightController.setViewSystem(dogfightView);
 		dogfightController.play();
 
-	}
-
-	private static void play() {
-		// TODO Auto-generated method stub
-		
 	}
 
 }
