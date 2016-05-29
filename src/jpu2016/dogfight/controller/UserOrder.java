@@ -2,13 +2,12 @@ package jpu2016.dogfight.controller;
 
 public abstract class UserOrder implements IUserOrder{
 	
-	public int player;
-	
+	private int player;
+	public String Order;
+
 	public int getPlayer() {
 		return player;
 	}
-
-	public String Order;
 	
 	public String getOrder() {
 		return Order;
